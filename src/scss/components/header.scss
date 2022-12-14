@@ -1,0 +1,45 @@
+.header {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1920px;
+	padding: 21px 0 0 70px;
+
+	&__logo {
+		width: 90px;
+		height: 90px;
+	}
+}
+
+@media (max-width: 1440px) {
+	.header {
+		padding: 13px 0 0 27px;
+	
+		&__logo {
+			width: 46px;
+			height: 46px;
+		}
+	}
+}
+
+@media (max-width: 1000px) {
+	.header {
+		padding: 10px 0 0 30px;
+	}
+}
+
+@media (max-width: 768px) {
+	.header {
+		&__logo {
+			width: 52px;
+			height: 52px;
+		}
+	}
+}
+
+@media (max-width: 500px) {
+	.header {
+		padding: 17px 0 0 0;
+		display: flex;
+		justify-content: center;
+	}
+}

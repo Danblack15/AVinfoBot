@@ -1,0 +1,41 @@
+.logos {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+	&__logo {
+		height: 100px;
+	}
+}
+
+@media (max-width: 1440px) {
+	.logos {
+		&__logo {
+			height: 80px;
+		}
+	}
+}
+
+@media (max-width: 1000px) {
+	.logos {
+		justify-content: space-between;
+
+		&__logo {
+			height: 70px;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.logos {
+		&__logo {
+			height: 50px;
+		}
+	}
+}
+
+@media (max-width: 550px) {
+	.logos {
+		display: none;
+	}
+}

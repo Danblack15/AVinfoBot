@@ -1,0 +1,24 @@
+include ../mixins/examplerep.pug
+h2.subtitle Примеры отчётов
+.examples-rep
+	+example-rep('ДТП, использование в такси, штрафы', '#')
+	+example-rep('ДТП, скрученный пробег, история продажи', 'https://report.av100.pro/report/6a8a6de2-5b2d-4fbd-b3fb-ce636438e94f')
+	+example-rep('Фотографии автомобиля, побывавшего в ДТП', 'https://report.av100.pro/report/90adafb2-fc63-4f13-8b66-04dec897a4cf')
+	+example-rep('Владелец юридическое лицо, скрученный пробег и штрафы', '#')
+	+example-rep('Автомобиль с ранее снятым ограничением на регистрационные действия', '#')
+	+example-rep('Белый пежо, использовался в качестве "Такси"', 'https://report.av100.pro/report/142cdd4a-5aa6-497f-8e55-1e59933a9e7c')
+.swiper-container.examples-rep-slider
+	.swiper-pagination.examples-rep-slider__pagination
+	.swiper-wrapper
+		.swiper-slide.examples-rep-slider__slide
+			+example-rep('ДТП, использование в такси, штрафы', '#')
+		.swiper-slide.examples-rep-slider__slide
+			+example-rep('ДТП, скрученный пробег, история продажи', 'https://report.av100.pro/report/6a8a6de2-5b2d-4fbd-b3fb-ce636438e94f')
+		.swiper-slide.examples-rep-slider__slide
+			+example-rep('Фотографии автомобиля, побывавшего в ДТП', 'https://report.av100.pro/report/90adafb2-fc63-4f13-8b66-04dec897a4cf')
+		.swiper-slide.examples-rep-slider__slide
+			+example-rep('Владелец юридическое лицо, скрученный пробег и штрафы', '#')
+		.swiper-slide.examples-rep-slider__slide
+			+example-rep('Автомобиль с ранее снятым ограничением на регистрационные действия', '#')
+		.swiper-slide.examples-rep-slider__slide
+			+example-rep('Белый пежо, использовался в качестве "Такси"', 'https://report.av100.pro/report/142cdd4a-5aa6-497f-8e55-1e59933a9e7c')

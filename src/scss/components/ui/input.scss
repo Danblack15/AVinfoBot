@@ -1,0 +1,54 @@
+.input-block {
+	width: 100%;
+	display: flex;
+	background: $green;
+	height: 48px;
+	border-radius: 8px;
+	overflow: hidden;
+
+	&__input {
+		width: 100%;
+		border: 3px solid $green;
+		border-radius: 8px;
+		padding-left: 14px;
+		font-size: 13px;
+		font-weight: 500;
+
+		&::placeholder {
+			color: $silver;
+		}
+	}
+
+	&__submit {
+		min-width: 117px;
+		background: none;
+		color: $white;
+		text-transform: uppercase;
+		font-weight: 600;
+		font-size: 13px;
+		cursor: pointer;
+		transition: .2s all;
+
+		&:hover {
+			opacity: 0.8;
+		}
+	}
+}
+
+@media (max-width: 1000px) {
+	.input-block {
+		height: 38px;
+	}
+}
+
+@media (max-width: 500px) {
+	.input-block {
+		&__input {
+			padding-left: 10px;
+		}
+
+		&__submit {
+			min-width: 102px;
+		}
+	}
+}
