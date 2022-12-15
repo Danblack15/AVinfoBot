@@ -3,3 +3,4 @@ import './form';
 import './increments';
 import './toggleInfo';
 import './sliderRep';
+import './payment';

@@ -17,7 +17,9 @@ body {
 	padding: 0;
 	overflow-x: hidden;
 	font-family: 'Montserrat';
-	min-height: 100vh
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
 
 h1,
@@ -46,10 +48,17 @@ input {
 	outline: none;
 }
 
+fieldset {
+	border: none;
+	padding: 0;
+}
+
 .main {
+	width: 100%;
 	max-width: 1920px;
 	margin: 0 auto;
-	padding: 0 73px
+	padding: 0 73px;
+	flex: 1 0 auto;
 }
 
 .title {
@@ -133,7 +142,7 @@ input {
 	}
 
 	.main {
-		padding: 0 60px
+		padding: 0 60px;
 	}
 
 	.index {
@@ -185,7 +194,7 @@ input {
 	}
 
 	.main {
-		padding: 0 30px
+		padding: 0 30px;
 	}
 
 	.index {

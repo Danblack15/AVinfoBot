@@ -1,0 +1,23 @@
+doctype html
+html(lang="en")
+
+head
+	meta(charset="UTF-8")
+	meta(name="viewport" content="width=device-width, initial-scale=1.0")
+	title Отчет по VIN WAUZZZ8R29A010702
+
+body
+	include ../components/header.pug
+	main.main.payment
+		h1.title.payment__title Проверка <span class="bold">истории автомобиля</span>
+		.payment__info-body
+			.payment__event-info
+				include ../components/eventInfo.pug
+			.payment__car-info
+				include ../components/carInfoPre.pug
+			.payment__hint-block
+				include ../components/hintBlock.pug
+			.payment__modal
+				include ../components/paymentModal.pug
+	.footer-payment
+		include ../components/footer.pug
