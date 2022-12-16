@@ -1,0 +1,34 @@
+doctype html
+html(lang="en")
+
+head
+	meta(charset="UTF-8")
+	meta(name="viewport" content="width=device-width, initial-scale=1.0")
+	title Отчет по VIN WAUZZZ8R29A010702
+
+body
+	include ../components/header.pug
+	main.main.report
+		h1.title.report__title Проверка <span class="bold">истории автомобиля</span>
+
+		.report__info-body
+			.report__event-info
+				.report__event-info-item
+					p VIN: <span class="bold">X4XPF78400E710969</span>
+				.report__event-info-item Гос. номер: <span class="bold">У678МЕ123</span>
+			.report__car-info
+				include ../components/carInfoPreBought.pug
+
+		.report__general-info
+
+		.report__btns 
+			button.report__btns-button Ссылка на отчет
+			.report__btns-double
+				a(href="/", target="_blank").report__btns-button Купить ещё один отчет
+				button.report__btns-button Сохранить в PDF
+
+		div(id="hint-report").report__hint-block
+			include ../components/reportHintBlock.pug
+
+	.footer-report
+		include ../components/footer.pug

@@ -11,6 +11,10 @@
 	box-sizing: border-box;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	width: 100%;
 	min-width: 320px;
@@ -108,8 +112,6 @@ fieldset {
 	&__logos {
 		margin: 100px 0;
 	}
-
-	&__more-info {}
 
 	&__slider {
 		margin-top: 100px;

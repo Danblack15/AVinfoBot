@@ -1,5 +1,6 @@
 .payment {
 	min-height: 100%;
+
 	&__title {
 		margin: 46px 0 20px 0;
 	}
@@ -92,6 +93,10 @@
 			grid-row-gap: 15px;
 		}
 	}
+
+	.footer-payment {
+		margin-top: 90px;
+	}
 }
 
 @media (max-width: 550px) {
@@ -102,6 +107,6 @@
 	}
 
 	.footer-payment {
-		margin-top: 90px;
+		margin-top: 70px;
 	}
 }

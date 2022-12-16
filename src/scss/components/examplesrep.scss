@@ -38,30 +38,30 @@
 
 	.swiper-pagination-bullet {
 		background: $black;
-	
+
 		&-active-main {
 			width: 10px;
 			height: 10px;
 		}
-	
+
 		&-active-next {
 			width: 8px;
 			height: 8px;
 			opacity: 0.75;
 		}
-	
+
 		&-active-prev {
 			width: 8px;
 			height: 8px;
 			opacity: 0.75;
 		}
-	
+
 		&-active-prev-prev {
 			width: 6px;
 			height: 6px;
 			opacity: 0.5;
 		}
-	
+
 		&-active-next-next {
 			width: 6px;
 			height: 6px;
