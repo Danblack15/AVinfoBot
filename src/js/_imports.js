@@ -1,5 +1,5 @@
 import './slider';
-import './form';
+import './formPay';
 import './increments';
 import './toggleInfo';
 import './sliderRep';

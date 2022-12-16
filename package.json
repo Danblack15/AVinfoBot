@@ -45,10 +45,10 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.8.7",
+    "approvejs": "^3.1.2",
     "countup.js": "^2.3.2",
     "jquery": "^3.5.1",
     "normalize.css": "^8.0.1",
-    "swiper": "^5.4.1",
-    "validate-form.js": "^1.0.0"
+    "swiper": "^5.4.1"
   }
 }
