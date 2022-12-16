@@ -10,7 +10,7 @@ rulesNumber = {
 },
 rulesPTS = {
 	required: true,
-	format: /^[АВЕКМНОРСТУХ]\d{3}(?<!000)[АВЕКМНОРСТУХ]{2}\d{2,3}$/ //регулярка ПТС
+	format: /^\d{1,2}[A-Za-z]{2}\d{6}$/
 }
 
 const inputDataCar = document.querySelector('.input-data-car')
@@ -33,7 +33,7 @@ inputDataCar?.addEventListener("submit", (e) => {
 
         //POST
     } else if (checkPTS.approved) {
-        console.log('success Body')
+        console.log('success PTS')
 
         //POST
     } else {
