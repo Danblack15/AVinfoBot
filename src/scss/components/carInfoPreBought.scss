@@ -146,6 +146,11 @@
 		font-size: 20px;
 		line-height: 100%;
 		color: $green;
+		transition: .2s color;
+
+		&:hover {
+			color: $greenSrc;
+		}
 	}
 
 	&__btns {
