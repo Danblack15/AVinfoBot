@@ -13,8 +13,6 @@
 
 @media (max-width: 1440px) {
 	.event-info {
-		padding: 15px 14px;
-
 		&__text {
 			font-size: 16px;
 		}
@@ -23,6 +21,7 @@
 
 @media (max-width: 1000px) {
 	.event-info {
+		padding: 15px 14px;
 		&__text {
 			font-size: 15px;
 		}
