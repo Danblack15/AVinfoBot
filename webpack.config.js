@@ -126,5 +126,8 @@ module.exports = (env, argv) => {
       }),
       new CleanWebpackPlugin(),
     ].concat(htmlPlugins),
+    optimization: {
+      minimize: false,
+    },
   };
 };
